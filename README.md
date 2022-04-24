@@ -2,7 +2,6 @@
 [![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
 [![License](https://img.shields.io/badge/license-%20BSD--3-blue.svg)](../master/LICENSE)
 
-
 # gtest-demo
 
 C/C++ unit test demo using [Google Test](https://code.google.com/p/googletest)
@@ -14,20 +13,19 @@ Actions](https://docs.github.com/en/actions) and test coverage deployed to
 - [Code coverage](https://coveralls.io/r/bast/gtest-demo)
 - Licensed under [BSD-3](../master/LICENSE)
 
-
 ## How to build this demo
 
 ```bash
 git clone https://github.com/bast/gtest-demo.git
 cd gtest-demo
-cmake -S. -Bbuild 
+cmake -S. -Bbuild
 cmake --build build
 ```
-
 
 ## Running the tests
 
 Either using `ctest`:
+
 ```
 $ cd build
 $ ctest
@@ -43,8 +41,9 @@ Total Test time (real) =   0.00 sec
 ```
 
 Or directly using `unit_tests`:
+
 ```
-$ cd build 
+$ cd build
 $ ./bin/unit_tests
 
 [==========] Running 2 tests from 1 test case.
@@ -61,7 +60,6 @@ $ ./bin/unit_tests
 [  PASSED  ] 2 tests.
 
 ```
-
 
 ## Acknowledgments
 
